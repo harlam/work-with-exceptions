@@ -1,0 +1,20 @@
+{
+  "name": "harlam/exceptions-ierarchy-demo",
+  "type": "project",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "harlam",
+      "email": "harlamov.nikolay@yandex.ru"
+    }
+  ],
+  "require": {
+    "jms/serializer": "^3.15",
+    "symfony/validator": "^5.3"
+  }
+}
